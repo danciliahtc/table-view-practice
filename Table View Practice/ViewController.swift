@@ -9,6 +9,9 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
+    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var label1: UILabel!
+    @IBOutlet weak var label2: UILabel!
     @IBOutlet weak var tableView: UITableView!
     
     let fruits = ["Apple", "Banana", "Cherry", "Grape", "Orange", "Strawberry"]
